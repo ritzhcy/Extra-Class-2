@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Checkbox: 
+            Checkbox is used to select more than one option.
+
+        Radio: 
+            Radio is used to select only one option.  
+
+        For texts numbers email and passsword type, for and id should be 
+        same. In checkbox and radio type, for and id and value should be 
+        same. 
+    -->
+    <form action="">
+        <h2>Checkbox</h2>
+        <input type="checkbox" name="course1" id="html" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="course2" id="css" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="course3" id="js" value="js">
+        <label for="js">Javascript</label>
+        <br><br>
+        <h2>Radio</h2>
+        <input type="radio" name="course" id="html" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" name="course" id="css" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" name="course" id="js" value="js">
+        <label for="js">Javascript</label>
+        <br>
+        <h2>Dropdown</h2>
+        <label for="cars">Select the below cars</label>
+        <select name="Brand" id="cars">
+            <option value="">Select</option>
+            <option value="BMW">BMW</option>
+            <option value="AUDI">AUDI</option>
+            <option value="RR">RR</option>
+            <option value="TESLA">TESLA</option>
+        </select>
+        <br><br>
+        <input type="submit">
+    </form>
+    <!-- 
+        Table:
+     -->
+    <h2>Table</h2>
+    <table border="1px" width="100px" height="50px">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CONTACT</th>
+        </tr>
+        <tr>
+            <td>Preeti Choudhury</td>
+            <td>21</td>
+            <td>8976453785</td>
+
+        </tr>
+        <tr>
+            <td>Mita</td>
+            <td>23</td>
+            <td>4668700876</td>
+        </tr>
+        <tr>
+            <td>Ritu</td>
+            <td>22</td>
+            <td>9345172846</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1px" width="200px" height="100px">
+        <tr>
+            <th colspan="2">NAME</th>
+            <th>CONTACT</th>
+        </tr>
+        <tr>
+            <td>Preeti Choudhury</td>
+            <td>21</td>
+            <td>8976453785</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">Mita</td>
+            <td>23</td>
+            <td>4668700876</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>9345172846</td>
+        </tr>
+    </table>
+    <!-- 
+        Absolute Path: 
+            Absolute Path is a path which is having full URL and is taken
+            from online.
+
+        Relative Path: 
+            Relative Path is a path which is taken from local machines. 
+
+        Alt is something whenever the image is not rendered we are giving
+        some information to our clients.
+    -->
+    <img src="https://www.google.com/chrome/static/images/download-browser/big_pixel_phone.png" alt="404 error">
+    <br><br>
+    <img src="images.jpg" alt="404 error">
+</body>
+</html>
